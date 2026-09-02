@@ -21,7 +21,13 @@ p.s. возможно все таки надо будет дополнитель
 
 
 
-ENG: 
+
+
+
+
+
+# Zanzarah Display Fixer v0.1.0 ENG: 
+
 Run START.bat, select zanthp.exe, and click “Apply Fix.” The utility:
 
 - Adds 1920×1080 to the list of resolutions;
@@ -30,7 +36,8 @@ Run START.bat, select zanthp.exe, and click “Apply Fix.” The utility:
 - sSaves Custom Pools and other additional data in the EXE;
 - Allows for repeated application; (Nothing will happen if you use it again.)
 - refuses to write the file if the EXE structure does not match a supported one.
-- 
+
+  
 I tested the logic on both of your versions: the one with the standard 800×600 in the tables and the one that’s already graphically patched to 1920×1080.
 
 P.S. You might still need the additional dgVoodoo utility, where you’ll have to set the resolution to 1920×1080.
