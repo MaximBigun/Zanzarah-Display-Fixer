@@ -1,3 +1,6 @@
+- **Проверено на стим версии игры. При этом монитор ультраширокий 2К. Windows 10.** 
+- **Tested on the Steam version of the game. I'm using an ultra-wide 2K monitor. Windows 10.** 
+
 # Zanzarah Display Fixer v0.1.0
 
 Запускаешь `START.bat`, выбираешь `zanthp.exe` и нажимаешь **«Применить фикс»**. Утилита:
