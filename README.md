@@ -70,7 +70,7 @@ P.S. To play the game, you'll need the dgVoodoo utility, where you'll need to se
 - Устанавливаем Steam Zanzarah.
 - Запускаем наш Zanzarah Display Fixer и патчим zanthp.exe.
 - Устанавливаем dgVoodoo2 для игры.
-- В dgVoodoo выставляем нужное разрешение — базово 1920×1080, а при необходимости можно выше/ultrawide — и максимально доступный объём VRAM.
+- В dgVoodoo выставляем нужное разрешение — базово 1920×1080 и максимально доступный объём VRAM.
 - Запускаем Zanzarah Startup Menu.
 - В игре выбираем 1920×1080×16.
 - Наш патч при этом исправляет положение HP, энергии прыжка, заклинаний и зарядов под 16:9
@@ -87,7 +87,7 @@ Here’s the procedure:
 - Install Steam Zanzarah.
 - Run our Zanzarah Display Fixer and patch zanthp.exe.
 - Install dgVoodoo2 for the game.
-- In dgVoodoo, set the desired resolution—1920×1080 by default, but you can go higher or use ultrawide if needed—and the maximum available VRAM.
+- In dgVoodoo, set the desired resolution—1920×1080 by default and the maximum available VRAM.
 - Launch the Zanzarah Startup Menu.
 - In the game, select 1920×1080×16.
 - Our patch adjusts the positioning of HP, jump energy, spells, and charges for a 16:9 aspect ratio.
