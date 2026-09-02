@@ -16,11 +16,11 @@
 Проверил логику на обоих твоих вариантах: с обычными `800×600` в таблицах и уже графически пропатченным `1920×1080`.
 
 p.s. Для игры надо дополнительная утилита dgVoodoo, где надо будет выставить разрешение 1920х1080.
-Скачайте архив dgVoodoo.zip
-Разархивируйте его в папке "Zanzarah\System"
-Запустите dgVoodooCpl.exe
-В открывшемся окне перейдите на вкладку "DirectX"
-Там поменяйте расширение на 1920х1080 (как на скриншоте) и уберите лишние галочки. После нажмите на "Apply" и на кнопку "OK"
+- Скачайте архив dgVoodoo.zip
+- Разархивируйте его в папке "Zanzarah\System"
+- Запустите dgVoodooCpl.exe
+- В открывшемся окне перейдите на вкладку "DirectX"
+- Там поменяйте расширение на 1920х1080 (как на скриншоте) и уберите лишние галочки. После нажмите на "Apply" и на кнопку "OK"
 
 
 <img width="403" height="496" alt="image" src="https://github.com/user-attachments/assets/1bbcbb89-03e8-4810-a675-9af8e75730e7" />
@@ -48,11 +48,11 @@ I tested the logic on both of your versions: the one with the standard 800×600 
 
 P.S. To play the game, you'll need the dgVoodoo utility, where you'll need to set the resolution to 1920x1080.
 
-Download the dgVoodoo.zip archive
-Extract it to the “Zanzarah\System” folder
-Run dgVoodooCpl.exe
-In the window that opens, go to the “DirectX” tab
-There, change the resolution to 1920x1080 (as shown in the screenshot) and uncheck any unnecessary boxes. Then click “Apply” and “OK”
+- Download the dgVoodoo.zip archive
+- Extract it to the “Zanzarah\System” folder
+- Run dgVoodooCpl.exe
+- In the window that opens, go to the “DirectX” tab
+- There, change the resolution to 1920x1080 (as shown in the screenshot) and uncheck any unnecessary boxes. Then click “Apply” and “OK”
 
 
 
