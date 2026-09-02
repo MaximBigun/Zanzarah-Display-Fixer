@@ -26,7 +26,8 @@ p.s. Для игры надо дополнительная утилита dgVood
 - Там поменяйте расширение на 1920х1080 (как на скриншоте) и уберите лишние галочки. После нажмите на "Apply" и на кнопку "OK"
 
 
-<img width="403" height="496" alt="image" src="https://github.com/user-attachments/assets/1bbcbb89-03e8-4810-a675-9af8e75730e7" />
+<img width="404" height="491" alt="image" src="https://github.com/user-attachments/assets/58344a52-0252-4864-bc5d-0f5edae9c187" />
+
 
 
 
