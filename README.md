@@ -4,7 +4,8 @@
 
 - добавляет **1920×1080** в список разрешений;
   
-<img width="469" height="428" alt="image" src="https://github.com/user-attachments/assets/3e85d57d-7d4c-44e6-ba63-938f94200333" />
+<img width="471" height="425" alt="image" src="https://github.com/user-attachments/assets/191b94c4-639d-4d5d-88de-f318f52bdaae" />
+
 
 - сразу применяет проверенный нами **Battle HUD Fix 16:9** — HP, энергия прыжка, заклинания и заряды;
 - создаёт `zanthp.exe.zdf.bak`; (оригинальный, не патченный zanthp.exe)
