@@ -18,7 +18,7 @@
 
 Проверил логику на обоих твоих вариантах: с обычными `800×600` в таблицах и уже графически пропатченным `1920×1080`.
 
-p.s. Для игры надо дополнительная утилита dgVoodoo, где надо будет выставить разрешение 1920х1080.
+**p.s. Для игры надо дополнительная утилита dgVoodoo, где надо будет выставить разрешение 1920х1080.**
 - Скачайте архив dgVoodoo.zip
 - Разархивируйте его в папке "Zanzarah\System"
 
@@ -54,7 +54,7 @@ Run START.bat, select zanthp.exe, and click “Apply Fix.” The utility:
   
 I tested the logic on both of your versions: the one with the standard 800×600 in the tables and the one that’s already graphically patched to 1920×1080.
 
-P.S. To play the game, you'll need the dgVoodoo utility, where you'll need to set the resolution to 1920x1080.
+**P.S. To play the game, you'll need the dgVoodoo utility, where you'll need to set the resolution to 1920x1080.**
 
 - Download the dgVoodoo.zip archive
 - Extract it to the “Zanzarah\System” folder
