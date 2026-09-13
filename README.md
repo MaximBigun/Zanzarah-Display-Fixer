@@ -17,7 +17,6 @@
 
 На вкладке **DirectX**:
 
-- Output API: `Best available one`;
 - Resolution: `1920x1080`;
 - VRAM: максимальное доступное значение;
 - снимите лишние экспериментальные галочки;
@@ -62,7 +61,7 @@ This patch is for the Steam version of **ZanZarah: The Hidden Portal**. It fixes
 
 ### dgVoodoo settings
 
-On the **DirectX** tab, set `Output API` to `Best available one`, set the resolution to `1920x1080`, choose the maximum available VRAM, disable unnecessary experimental options, then click **Apply** and **OK**.
+On the **DirectX** tab, set the resolution to `1920x1080`, choose the maximum available VRAM, disable unnecessary experimental options, then click **Apply** and **OK**.
 
 On the first game launch, the Startup Menu must use:
 
