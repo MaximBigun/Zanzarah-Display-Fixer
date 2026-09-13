@@ -67,6 +67,10 @@ On the first game launch, the Startup Menu must use:
 
 Open the language menu, select a language and click **Apply**. The Startup Menu will restart using the selected localization.
 
+
+<img width="473" height="430" alt="image" src="https://github.com/user-attachments/assets/7a9a7404-d3d9-4e2c-89bc-5c0d0fa649fb" />
+
+
 ## Languages
 
 English, Russian, Ukrainian, Czech, Polish and French are included. Czech uses English audio/video as fallback; Polish uses English audio as fallback. French includes French text, voice audio and videos.
