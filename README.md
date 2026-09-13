@@ -1,102 +1,110 @@
-- **Проверено на стим версии игры. При этом монитор ультраширокий 2К. Windows 10.** 
-- **Tested on the Steam version of the game. I'm using an ultra-wide 2K monitor. Windows 10.** 
+# ZanZarah Display Fixer + Language Patch
 
-# Zanzarah Display Fixer v0.1.0
+Патч для Steam-версии **ZanZarah: The Hidden Portal**.
 
-Запускаешь `START.bat`, выбираешь `zanthp.exe` и нажимаешь **«Применить фикс»**. Утилита:
+Он исправляет проблемы отображения на современных системах, добавляет разрешение **1920×1080**, исправляет положение элементов HUD для формата 16:9 и добавляет шесть языков: English, Русский, Українська, Čeština, Polski и Français.
 
-- добавляет **1920×1080** в список разрешений;
-  
-<img width="471" height="425" alt="image" src="https://github.com/user-attachments/assets/191b94c4-639d-4d5d-88de-f318f52bdaae" />
+## Установка
 
+1. В Steam выполните проверку целостности файлов игры.
+2. Распакуйте этот репозиторий в отдельную папку.
+3. Запустите `install.bat` **от имени администратора**.
+4. Выберите корневую папку игры `...\ZanZarah`.
+5. Дождитесь завершения установки и локальной подготовки русского PAK.
+6. Запустите `System\dgVoodooCpl.exe`.
 
-- сразу применяет проверенный нами **Battle HUD Fix 16:9** — HP, энергия прыжка, заклинания и заряды;
-- создаёт `zanthp.exe.zdf.bak`; (оригинальный, не патченный zanthp.exe)
-- сохраняет Custom Pools и другие дополнительные данные в EXE;
-- допускает повторное применение; (при повторном применении ничего не произойдет)
-- отказывается писать файл, если структура EXE не похожа на поддерживаемую.
+### Настройка dgVoodoo
 
-Проверил логику на обоих твоих вариантах: с обычными `800×600` в таблицах и уже графически пропатченным `1920×1080`.
+На вкладке **DirectX**:
 
-**p.s. Для игры надо дополнительная утилита dgVoodoo, где надо будет выставить разрешение 1920х1080.**
-- Скачайте архив dgVoodoo.zip
-- Разархивируйте его в папке "Zanzarah\System"
+- Output API: `Best available one`;
+- Resolution: `1920x1080`;
+- VRAM: максимальное доступное значение;
+- снимите лишние экспериментальные галочки;
+- нажмите **Apply**, затем **OK**.
 
-<img width="616" height="545" alt="image" src="https://github.com/user-attachments/assets/a28b1f87-3f86-4d38-a6d9-ec18681573a4" />
+При первом запуске в стартовом меню игры обязательно выберите разрешение:
 
+`1920x1080x16`
 
-- Запустите dgVoodooCpl.exe
-- В открывшемся окне перейдите на вкладку "DirectX"
-- Там поменяйте расширение на 1920х1080 (как на скриншоте) и уберите лишние галочки. После нажмите на "Apply" и на кнопку "OK"
+После этого откройте меню языков, выберите язык и нажмите **Apply**. Игра перезапустит стартовое меню с выбранной локализацией.
 
+## Поддерживаемые языки
 
-<img width="404" height="491" alt="image" src="https://github.com/user-attachments/assets/58344a52-0252-4864-bc5d-0f5edae9c187" />
+- **English** — оригинальный текст, озвучка и видео.
+- **Русский** — русский текст, озвучка и видео.
+- **Українська** — украинский текст, озвучка и видео.
+- **Čeština** — чешский текст и шрифты; английские озвучка и видео используются как резерв.
+- **Polski** — польский текст, шрифты и видео; английская озвучка используется как резерв.
+- **Français** — французский текст, озвучка и видео.
 
+## Восстановление
 
+Запустите `restore.bat` из папки патча. Резервные копии создаются в папке `zms_backup` рядом с игрой.
 
+---
 
+# English
 
+This patch is for the Steam version of **ZanZarah: The Hidden Portal**. It fixes modern display issues, adds **1920×1080**, fixes the 16:9 HUD layout, and adds six languages: English, Russian, Ukrainian, Czech, Polish and French.
 
+## Installation
 
+1. Verify the game files in Steam.
+2. Extract this repository to a separate folder.
+3. Run `install.bat` **as administrator**.
+4. Select the game root folder, `...\ZanZarah`.
+5. Wait for the installation and the local Russian PAK build to finish.
+6. Run `System\dgVoodooCpl.exe`.
 
+### dgVoodoo settings
 
-# Zanzarah Display Fixer v0.1.0 ENG: 
+On the **DirectX** tab, set `Output API` to `Best available one`, set the resolution to `1920x1080`, choose the maximum available VRAM, disable unnecessary experimental options, then click **Apply** and **OK**.
 
-Run START.bat, select zanthp.exe, and click “Apply Fix.” The utility:
+On the first game launch, the Startup Menu must use:
 
-- Adds 1920×1080 to the list of resolutions;
-- Immediately applies the Battle HUD Fix 16:9 that we’ve tested—HP, jump energy, spells, and charges;
-- Creates zanthp.exe.zdf.bak; (the original, unpatched zanthp.exe)
-- sSaves Custom Pools and other additional data in the EXE;
-- Allows for repeated application; (Nothing will happen if you use it again.)
-- refuses to write the file if the EXE structure does not match a supported one.
+`1920x1080x16`
 
-  
-I tested the logic on both of your versions: the one with the standard 800×600 in the tables and the one that’s already graphically patched to 1920×1080.
+Open the language menu, select a language and click **Apply**. The Startup Menu will restart using the selected localization.
 
-**P.S. To play the game, you'll need the dgVoodoo utility, where you'll need to set the resolution to 1920x1080.**
+## Languages
 
-- Download the dgVoodoo.zip archive
-- Extract it to the “Zanzarah\System” folder
-- Run dgVoodooCpl.exe
-- In the window that opens, go to the “DirectX” tab
-- There, change the resolution to 1920x1080 (as shown in the screenshot) and uncheck any unnecessary boxes. Then click “Apply” and “OK”
+English, Russian, Ukrainian, Czech, Polish and French are included. Czech uses English audio/video as fallback; Polish uses English audio as fallback. French includes French text, voice audio and videos.
 
+## Restore
 
+Run `restore.bat`. Backups are stored in the game's `zms_backup` folder.
 
+---
 
+# Русский
 
+Патч исправляет проблемы с дисплеем, добавляет 1920×1080, исправляет HUD для 16:9 и добавляет английский, русский, украинский, чешский, польский и французский языки.
 
+Порядок: проверить файлы Steam → запустить `install.bat` от администратора → выбрать папку игры → настроить `System\dgVoodooCpl.exe` на 1920×1080 → в стартовом меню выбрать **1920×1080×16** → выбрать язык и нажать **Apply**.
 
+---
 
+# Українська
 
+Патч виправляє проблеми дисплея, додає 1920×1080, виправляє HUD для 16:9 та додає англійську, російську, українську, чеську, польську й французьку мови.
 
+Порядок: перевірити файли Steam → запустити `install.bat` від адміністратора → вибрати папку гри → налаштувати `System\dgVoodooCpl.exe` на 1920×1080 → у стартовому меню вибрати **1920×1080×16** → вибрати мову та натиснути **Apply**.
 
-# Последовательность действий: 
-Схема теперь такая:
+---
 
-- Устанавливаем Steam Zanzarah.
-- Запускаем наш Zanzarah Display Fixer и патчим zanthp.exe.
-- Устанавливаем dgVoodoo2 для игры.
-- В dgVoodoo выставляем нужное разрешение — базово 1920×1080 и максимально доступный объём VRAM.
-- Запускаем Zanzarah Startup Menu.
-- В игре выбираем 1920×1080×16.
-- Наш патч при этом исправляет положение HP, энергии прыжка, заклинаний и зарядов под 16:9
+# Čeština
 
+Patch opravuje problémy se zobrazením, přidává rozlišení 1920×1080, upravuje HUD pro poměr 16:9 a přidává šest jazyků. Spusťte `install.bat` jako správce, nastavte dgVoodoo na 1920×1080 a ve Startup Menu vždy vyberte **1920×1080×16**. Poté vyberte jazyk a stiskněte **Apply**.
 
+---
 
+# Polski
 
+Patch naprawia problemy z wyświetlaniem, dodaje rozdzielczość 1920×1080, poprawia HUD dla proporcji 16:9 i dodaje sześć języków. Uruchom `install.bat` jako administrator, ustaw dgVoodoo na 1920×1080, a w Startup Menu wybierz **1920×1080×16**. Następnie wybierz język i kliknij **Apply**.
 
+---
 
-# Step-by-Step Procedure ENG:
+# Français
 
-Here’s the procedure:
-
-- Install Steam Zanzarah.
-- Run our Zanzarah Display Fixer and patch zanthp.exe.
-- Install dgVoodoo2 for the game.
-- In dgVoodoo, set the desired resolution—1920×1080 by default and the maximum available VRAM.
-- Launch the Zanzarah Startup Menu.
-- In the game, select 1920×1080×16.
-- Our patch adjusts the positioning of HP, jump energy, spells, and charges for a 16:9 aspect ratio.
-
+Le patch corrige les problèmes d'affichage, ajoute la résolution 1920×1080, corrige le HUD au format 16:9 et ajoute six langues. Lancez `install.bat` en tant qu'administrateur, configurez dgVoodoo en 1920×1080 et sélectionnez obligatoirement **1920×1080×16** dans le Startup Menu. Choisissez ensuite la langue et cliquez sur **Apply**.
