@@ -1,10 +1,10 @@
 # Переводы взяты: 
-en - оригинальный перевод игры 
-ru - перевод от руссобит
-ua - Автор: DragonOfTheEast https://steamcommunity.com/id/DragonOfTheEast
-cz - полноценный мод от Mrazik 
-fr - Взято с оригинального перевода для французкой версии
-pl - сделан силами разных переводчиков
+- en - оригинальный перевод игры 
+- ru - перевод от руссобит
+- ua - Автор: DragonOfTheEast https://steamcommunity.com/id/DragonOfTheEast
+- cz - полноценный мод от Mrazik 
+- fr - Взято с оригинального перевода для французкой версии
+- pl - сделан силами разных переводчиков
 
 # ZanZarah Display Fixer + Language Patch
 
