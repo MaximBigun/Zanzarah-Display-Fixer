@@ -10,7 +10,7 @@
 2. Распакуйте этот репозиторий в отдельную папку.
 3. Запустите `install.bat` **от имени администратора**.
 4. Выберите корневую папку игры `...\ZanZarah`.
-5. Дождитесь завершения установки и локальной подготовки русского PAK.
+5. Дождитесь завершения установки.
 6. Запустите `System\dgVoodooCpl.exe`.
 
 ### Настройка dgVoodoo
@@ -57,7 +57,7 @@ This patch is for the Steam version of **ZanZarah: The Hidden Portal**. It fixes
 2. Extract this repository to a separate folder.
 3. Run `install.bat` **as administrator**.
 4. Select the game root folder, `...\ZanZarah`.
-5. Wait for the installation and the local Russian PAK build to finish.
+5. Wait for the installation finish.
 6. Run `System\dgVoodooCpl.exe`.
 
 ### dgVoodoo settings
